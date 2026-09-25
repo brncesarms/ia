@@ -1,8 +1,10 @@
 ---
 title: "Benchmark Modelos MoE - GEEKOM A7 MAX"
 date_created: 2026-09-08
-date_updated: 2026-09-08
+author: "Bruno César"
+privacy: public
 tags:
+  - publico
   - ia
   - ollama
   - benchmark
@@ -115,12 +117,7 @@ Resultados de benchmark comparativo entre modelos Mistura de Especialistas (MoE)
 >
 > 🎯 **Conclusão:** a GEEKOM tuned **consegue sim passar de 50 tok/s de geraçao**, mas só em modelos **MoE muito leves (A1B)** com contexto curto. Para trabalho técnico de qualidade (256k ctx), os tok/s caem para a faixa de 20-35 — o que já é excelente para uso agêntico. 👇
 
-## 🔗 Notas Correlatas
 
-- 🤖 [IA Local — Índice](./README.md)
-- 🐚 [Script de Benchmark](../?/benchmark-moe.sh) — `guia-ia-local/scripts/benchmark-moe.sh`
-
----
 
 ## 🔗 Fontes
 
@@ -132,3 +129,11 @@ Resultados de benchmark comparativo entre modelos Mistura de Especialistas (MoE)
 - [Granite3-MoE:1B — Ollama](https://ollama.com/ibm/granite3-moe:1b)
 - [Granite3-MoE:3B — Ollama](https://ollama.com/ibm/granite3-moe:3b)
 - [Granite 3 MoE (IBM) — HuggingFace](https://huggingface.co/ibm-granite/granite-3.0-3b-a400m-instruct)
+
+---
+
+## 🔗 Notas Relacionadas
+- [Ranking Geral de Modelos de Linguagem](02_ranking_geral_modelos_llm.md) — Comparativo abrangente de modelos abertos densos e MoE.
+- [Arquitetura RAG Nativo Local](05_arquitetura_rag_nativo_hermes_db.md) — Motor vetorial com sqlite-vec e FastEmbed no GEEKOM.
+- [Acesso ao Ollama via Terminal SSH](03_ollama_acesso_terminal_ssh.md) — Execução e testes de inferência remota via linha de comando.
+- [Guia Principal de Inteligência Artificial](README.md) — Índice de modelos, benchmarks e arquitetura de IA.

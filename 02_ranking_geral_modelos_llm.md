@@ -1,8 +1,10 @@
 ---
 title: "Ranking Geral de Modelos — GEEKOM"
 date_created: 2026-09-08
-date_updated: 2026-09-08
+author: "Bruno César"
+privacy: public
 tags:
+  - publico
   - ia
   - ollama
   - benchmark
@@ -195,16 +197,11 @@ Praticamente **todo modelo de fronteira usa MoE**: GPT-5/GPT-OSS, DeepSeek V3/V4
 
 > Os 3 Dense continuam instalados, mas **não receberão novos testes/prioridade**. A mesa de testes fica reservada aos MoE.
 
-## 📂 Onde está cada nota
+## 📂 Registro Histórico de Dados
 
-- 📊 Benchmark MoE completo: [IA/benchmark-moe-geekom.md](./benchmark-moe-geekom.md)
-- 🧪 Benchmark iGPU (06/09): [`../../guia-ia-local/benchmarks/BENCHMARKS.md`](../../guia-ia-local/benchmarks/BENCHMARKS.md)
-- 📈 Histórico de benchmarks: [`../../guia-ia-local/benchmarks/HISTORICO.md`](../../guia-ia-local/benchmarks/HISTORICO.md)
-
-## 🔗 Notas Correlatas
-
-- 🤖 [IA Local — Índice](./README.md)
-- 📊 [Benchmark Modelos MoE](./benchmark-moe-geekom.md)
+- 📊 Benchmark MoE consolidado: [Benchmark Modelos MoE](./01_benchmark_modelos_moe_geekom.md)
+- 🧪 Benchmark iGPU inicial: `benchmarks/BENCHMARKS.md` (consolidado nesta nota)
+- 📈 Histórico de telemetria: `benchmarks/HISTORICO.md` (consolidado nesta nota)
 
 ---
 
@@ -229,3 +226,11 @@ Praticamente **todo modelo de fronteira usa MoE**: GPT-5/GPT-OSS, DeepSeek V3/V4
 - [Laguna XS 2.1 (MoE 33B/3B) — Ollama](https://ollama.com/library/laguna-xs-2.1)
 - [Qwen3.6 35B-A3B (MoE agêntico, 262k ctx) — Ollama](https://ollama.com/library/qwen3.6:35b-a3b)
 - [Ollama Biblioteca de Modelos](https://ollama.com/library)
+
+---
+
+## 🔗 Notas Relacionadas
+- [Benchmark Modelos MoE no GEEKOM](01_benchmark_modelos_moe_geekom.md) — Testes práticos de vazão (tokens/s) na iGPU Radeon 780M.
+- [Arquitetura RAG Nativo Local](05_arquitetura_rag_nativo_hermes_db.md) — Alimentação de contexto e redução de alucinações via RAG.
+- [Acesso ao Ollama via Terminal SSH](03_ollama_acesso_terminal_ssh.md) — Comandos para baixar e rodar modelos via CLI.
+- [Guia Principal de Inteligência Artificial](README.md) — Índice de modelos, benchmarks e arquitetura de IA.
